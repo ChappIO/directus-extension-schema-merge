@@ -8,6 +8,6 @@ And it is touching your database 🤷🏻‍♂️.
 
 ## Usage:
 
-1. Install the extension: `npm install directus-extension-schema-sync`.
+1. Install the extension: `npm install directus-extension-schema-merge`.
 2. Export your schema: `directus schema-merge snapshot --output schema.yml`:
 3. Import your schema `directus schema-merge apply schema.yml`
