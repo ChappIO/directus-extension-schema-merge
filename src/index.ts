@@ -7,7 +7,7 @@ import hash from "object-hash";
 export default defineHook(async ({init}, {services, database, logger}) => {
     init('cli.after', ({program}: any) => {
 
-        const syncCommand = program.command('schema-sync');
+        const syncCommand = program.command('schema-merge');
 
         syncCommand
             .command('apply')
